@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block title %}
+History
+{% endblock %}
+{% block main %}
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Symbol</th>
+      <th>Share</th>
+      <th>Price</th>
+      <th>Buy/Sell</th>
+      <th>Transacted</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%for item in data%}
+    <tr>
+      <td>{{item["share"]}}</td>
+      <td>{{item["qty"]}}</td>
+      <td>${{item["price"]}}</td>
+      <td>{{item["type"]}}</td>
+      <td>{{item["time"]}}</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+{% endblock %}

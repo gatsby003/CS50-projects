@@ -1,0 +1,54 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.harvard.cs50.pokedex"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:22:5-67
+11-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:22:22-64
+12
+13    <application
+13-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:5:5-20:19
+14        android:allowBackup="true"
+14-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] /home/ganesh/.gradle/caches/transforms-2/files-2.1/80f58724caaf330e74c3000cc6797977/core-1.1.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:7:9-43
+18        android:label="@string/app_name"
+18-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:8:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:9:9-54
+20        android:supportsRtl="true"
+20-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:10:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:11:9-40
+23        <activity android:name="edu.harvard.cs50.pokedex.PokemonActivity" />
+23-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:12:9-62
+23-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:12:19-50
+24        <activity android:name="edu.harvard.cs50.pokedex.MainActivity" >
+24-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:13:9-19:20
+24-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:13:19-47
+25            <intent-filter>
+25-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:14:13-18:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:15:17-69
+26-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:15:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:17:17-77
+28-->/home/ganesh/AndroidStudioProjects/pokedex/Pokedex/app/src/main/AndroidManifest.xml:17:27-74
+29            </intent-filter>
+30        </activity>
+31    </application>
+32
+33</manifest>

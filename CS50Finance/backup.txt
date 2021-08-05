@@ -1,0 +1,7 @@
+CREATE TABLE "orders" (
+	"user_id"	INTEGER NOT NULL,
+	"share"	TEXT NOT NULL,
+	"qty"	INTEGER NOT NULL,
+	"price"	NUMERIC NOT NULL,
+	FOREIGN KEY("user_id") REFERENCES "users"("id")
+)
